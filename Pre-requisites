@@ -1,0 +1,18 @@
+Create AWS account
+
+Provision one server manually
+
+Install terraform
+   1. sudo yum install -y yum-utils
+   2. sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+   3. sudo yum -y install terraform
+   4. terraform init
+   5. create providers.tf, vaeriables.tf and webserver.tf
+   6. terraform plan
+   7. Terraform apply 
+      --> You need to approve manually by entering Yes or you can use Terraform apply –auto-approv
+   
+Install ansible
+   1. wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   2. yum install epel-release-latest-7.noarch.rpm
+   3. yum install git python python-devel python-pip openssl ansible -y
