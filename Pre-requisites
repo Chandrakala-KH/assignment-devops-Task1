@@ -10,7 +10,7 @@ Install terraform
    5. create providers.tf, vaeriables.tf and webserver.tf
    6. terraform plan
    7. Terraform apply 
-      --> You need to approve manually by entering Yes or you can use Terraform apply –auto-approv
+      --> You need to approve manually by entering "Yes" or you can use Terraform apply –auto-approv
    
 Install ansible
    1. wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
