@@ -24,6 +24,7 @@ Repo is used to
     
  ```
  ## Execution steps
+   Go to folder where Terraform files are stored and execute below commands
  - terraform init
  - terraform plan
  - terrafom apply
