@@ -1,26 +1,23 @@
 # Assignment-DevOps-Role
-Repo is used to 
+This Repo is used to 
 - Automatically provision Linux server on AWS using Terraform
 - Install and configure nginx using Ansible Playbook
 
 ## Prerequisites
-- AWS account needs to created
-- Provision one server manually
-- Install Terraform
-- Install Ansible
-
+- AWS account needs to be created
+- Provision one server manually to run Terraform 
+     - Install Terraform
+     - Install Ansible
   For Detailed instruction refer [Pre-requisites](https://github.com/chashakala/assignment-devops/blob/main/Pre-requisites/) file 
-## Structure
+## Files 
 ```
 ├── README.md
-├── Terraform
-│   ├── variables.tf
-│   ├── providers.tf
-│   └── webservers.tf
-├── Ansible
-    ├── nginx.yml
-    ├── inventory
-    ├── ansible.cfg
+├── variables.tf
+├── providers.tf
+├── webservers.tf
+├── nginx.yml
+├── inventory
+├── ansible.cfg
     
  ```
  ## Execution steps
