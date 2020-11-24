@@ -8,6 +8,7 @@ Repo is used to
 - Provision one server manually
 - Install Terraform
 - Install Ansible
+
   For Detailed instruction refer [Pre-requisites](https://github.com/chashakala/assignment-devops/blob/main/Pre-requisites/) file 
 ## Structure
 ```
