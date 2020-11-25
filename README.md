@@ -21,12 +21,17 @@ This Repo is used to
  ```
 
 ### CONFIGURATION
-Server where terraform and asnible instaleld:
+Server where terraform and asnible installed:
+
 [root@terraform ec2-user]# ls
+
 epel-release-latest-7.noarch.rpm  invent.ini   linuxkey.pem  providers.tf       terraform.tfstate.backup
 index.html                        k8s-cluster  main.tf       terraform.tfstate  test
+
 [root@terraform ec2-user]# cd /etc/ansible/
+
 [root@terraform ec2-user]# ls
+
 ansible.cfg  hosts  index.html  inventory  nginx.yml  roles
 
  ## Execution steps
